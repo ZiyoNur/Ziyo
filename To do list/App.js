@@ -20,6 +20,7 @@ const App = props => {
   ]);
 
   const addNewToDoList = text => {
+    // There are many options (arr.push).
     setToDo(prevState => {
       return [...prevState, { list: text }]
     });
