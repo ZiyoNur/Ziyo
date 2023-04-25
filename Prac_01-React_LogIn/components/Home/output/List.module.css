@@ -1,0 +1,13 @@
+
+
+.ul{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: serif;
+    margin: 10px;
+    line-height: 1.4;
+}
+
+.ul li{
+    list-style: none;
+}

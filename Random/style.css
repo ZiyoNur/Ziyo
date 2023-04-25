@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+main {
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    font-size: 10rem;
+    width: 80rem;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, 
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 2rem;
+}
+.btn-reset {
+    padding: 1.6rem 2.2rem;
+    font-size: 2.3rem;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+        rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: absolute;
+    top : 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn {
+    padding: 2rem 3rem;
+    font-size: 3rem;
+    border-radius: 3rem;
+
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+        rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.hello {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+        rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+        rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+        padding: 1.4rem 2rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+
+        position: absolute;
+        left: 0;
+        transform: translateY(-50%, 0);
+        
+}
+
+.bye {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+        rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+        rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+        padding: 1.4rem 2rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        
+        position: absolute;
+        right: 0;
+        transform: translateY(-50%, 0);
+}

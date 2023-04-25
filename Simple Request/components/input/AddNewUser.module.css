@@ -1,0 +1,81 @@
+.user-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.btn-btts{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content:space-around;
+}
+
+.btn-btts .submit{
+  width: 200px;
+  align-self: center;
+  font-size: 24px;
+  font-family: serif;
+  font-weight: 800;
+  padding: 12px;
+  color: #fff;
+  background-color: #230052;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-btts .submit:hover{
+  background-color: aqua;
+  color: #ff0000;
+  border: none;
+}
+.btn-btts .fetch{
+  width: 100px;
+  align-self: center;
+  font-size: 18px;
+  font-family: serif;
+  font-weight: 800;
+  padding: 8px;
+  color: #fff;
+  background-color: #ff0000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-btts .fetch:hover{
+  font-size: 24px;
+  padding: 4px;
+  scale: (0.5);
+  width: 120px;
+  height: 40px;
+}
+.user {
+  margin: 1rem 0;
+}
+
+.user label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.user input,
+.user textarea {
+  font-size: 28px;
+  display: block;
+  width: 100%;
+  font: inherit;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.user input:focus,
+.user textarea:focus {
+  outline: none;
+  border-color: #230052;
+}
